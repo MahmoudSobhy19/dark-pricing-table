@@ -1,0 +1,83 @@
+/* Start Main */
+.container { 
+	width: 1000px; 
+	margin: auto;
+	display: flex;
+	margin-top: 70px ;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Tahoma;
+	background-color: #F0F0ED;
+}
+
+/*End Main */
+
+
+.col {
+	color: #ffffff;
+	background-color: #242424;
+	width: 25%;
+	text-align: center;
+	padding: 30px 0 0 0;
+	border-left: 1px solid #5f5f5f;
+}
+
+.col h2 {
+	padding: 15px 0;
+	padding-bottom: 20px;
+}
+
+.col .h {
+	padding-top: 25px;
+	padding-bottom: 7px;
+}
+
+.col p {
+	color: #706e6e;
+	padding: 15px;
+	border-top: 1px solid #5f5f5f;
+	font-size: 12px;
+}
+
+.col-b {
+	background-color: #03A9F4;
+}
+
+.col-b >p {
+	color: #ffffff;
+	border-top: 1px solid #ffffff;
+}
+
+.col .background {
+	background-color: #2A2A2A;
+}
+
+.col button {
+	margin: 40px 0;
+	color: #ffffff;
+	background-color: #242424;
+	padding: 10px 30px;
+	border: 1px solid #5f5f5f;
+}
+
+.col-b >button {
+	background-color: #03A9F4;
+	border: 1px solid #ffffff;
+}
+
+.col-b {
+	margin: -20px 0;
+	border: none;
+}
+
+.col sub {
+	font-size: 14px;
+	font-weight: normal;
+}
